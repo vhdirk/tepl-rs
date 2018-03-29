@@ -1,0 +1,29 @@
+[package]
+name = "amtk"
+description = "Bindings for amtk-3.0"
+homepage = "https://github.com/vhdirk/amtk-rs"
+authors = ["Dirk Van Haerenborgh <vhdirk@gmail.com>"]
+keywords = ["amtk", "gtk-rs", "gnome"]
+license = "MIT"
+version = "0.0.1"
+exclude = [
+    "gir-files/*",
+]
+
+
+[lib]
+name = "amtk"
+
+
+[dependencies]
+libc = "0.2"
+bitflags = "1.0"
+lazy_static = "1.0"
+
+amtk-sys   = "^0.6.0"
+gio         = "^0.4.0"
+gio-sys     = "^0.6.0"
+glib        = "^0.5.0"
+glib-sys    = "^0.6.0"
+gobject-sys = "^0.6.0"
+gtk-sys     = "^0.6.0"
