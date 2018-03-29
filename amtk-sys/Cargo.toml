@@ -1,0 +1,39 @@
+[build-dependencies]
+pkg-config = "0.3.7"
+
+[dependencies]
+bitflags = "1.0"
+libc = "0.2"
+
+[dependencies.gio-sys]
+path = "../gio-sys"
+version = "0.2.0"
+
+[dependencies.glib-sys]
+path = "../glib-sys"
+version = "0.2.0"
+
+[dependencies.gobject-sys]
+path = "../gobject-sys"
+version = "0.2.0"
+
+[dependencies.gtk-sys]
+path = "../gtk-sys"
+version = "0.2.0"
+
+[dev-dependencies]
+shell-words = "0.1.0"
+tempdir = "0.3"
+
+[features]
+dox = []
+v3_0 = []
+
+[lib]
+name = "amtk_sys"
+
+[package]
+build = "build.rs"
+links = "amtk"
+name = "amtk-sys"
+version = "0.2.0"

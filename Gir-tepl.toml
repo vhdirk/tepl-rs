@@ -1,0 +1,50 @@
+[options]
+girs_dir = "gir-files"
+library = "Tepl"
+version = "3"
+target_path = "tepl"
+work_mode = "normal"
+generate_safety_asserts = false
+min_cfg_version = "1.30"
+
+generate = ["Tepl.AbstractFactory",
+            "Tepl.Application",
+            "Tepl.ApplicationWindow",
+            "Tepl.TabGroup",
+            "Tepl.Notebook",
+            "Tepl.Tab",
+            "Tepl.TabLabel",
+            "Tepl.View",
+            "Tepl.Buffer",
+            "Tepl.MenuShell",
+            "Tepl.Encoding",
+            "Tepl.File",
+            "Tepl.FileLoader",
+            "Tepl.FileSaver",
+            "Tepl.FileMetadata",
+            "Tepl.MetadataManager",
+            "Tepl.FoldRegion",
+            "Tepl.GutterRendererFolds",
+            "Tepl.InfoBar",
+            "Tepl.Iter",
+            "Tepl.CompressionType",
+            "Tepl.NewlineType",
+            "Tepl.MountOperationFactory",
+            ]
+
+manual = [
+    "GLib.Bytes",
+    "GLib.Error",
+    "GLib.Variant",
+    "GLib.VariantType",
+    "GLib.IOCondition",
+    "GLib.SeekType",
+    "GLib.Source",
+    "GLib.Priority",
+    "GLib.DateTime",
+    "GLib.ChecksumType",
+    "GLib.DestroyNotify",
+    "Gio.File",
+    "Gtk.MessageType",
+    "Amtk.*"
+]

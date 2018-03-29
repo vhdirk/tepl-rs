@@ -1,0 +1,35 @@
+[options]
+girs_dir = "gir-files"
+library = "Amtk"
+version = "3"
+target_path = "amtk"
+work_mode = "normal"
+generate_safety_asserts = false
+min_cfg_version = "1.30"
+
+generate = ["Amtk.ApplicationWindow",
+            "Amtk.ActionInfo",
+            "Amtk.ActionInfoStore",
+            "Amtk.ActionInfoCentralStore",
+            "Amtk.ActionMap",
+            "Amtk.Factory",
+            "Amtk.MenuItem",
+            "Amtk.MenuShell",
+            "Amtk.Utils",
+            ]
+
+manual = [
+    "GLib.Bytes",
+    "GLib.Error",
+    "GLib.Variant",
+    "GLib.VariantType",
+    "GLib.IOCondition",
+    "GLib.SeekType",
+    "GLib.Source",
+    "GLib.Priority",
+    "GLib.DateTime",
+    "GLib.ChecksumType",
+    "GLib.DestroyNotify",
+    "Gio.File",
+    "Gtk.MessageType"
+]

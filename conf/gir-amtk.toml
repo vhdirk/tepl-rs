@@ -1,0 +1,12 @@
+
+[options]
+work_mode = "sys"
+library = "Amtk"
+version = "3"
+min_cfg_version = "2.26"
+external_libraries = [
+   "GLib",
+   "GObject",
+   "Gio",
+   "Gtk"
+]
