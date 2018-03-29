@@ -4,22 +4,10 @@ pkg-config = "0.3.7"
 [dependencies]
 bitflags = "1.0"
 libc = "0.2"
-
-[dependencies.gio-sys]
-path = "../gio-sys"
-version = "0.2.0"
-
-[dependencies.glib-sys]
-path = "../glib-sys"
-version = "0.2.0"
-
-[dependencies.gobject-sys]
-path = "../gobject-sys"
-version = "0.2.0"
-
-[dependencies.gtk-sys]
-path = "../gtk-sys"
-version = "0.2.0"
+gio-sys     = "^0.6.0"
+glib-sys    = "^0.6.0"
+gobject-sys = "^0.6.0"
+gtk-sys     = "^0.6.0"
 
 [dev-dependencies]
 shell-words = "0.1.0"
@@ -33,7 +21,12 @@ v3_0 = []
 name = "tepl_sys"
 
 [package]
+authors = ["Dirk Van Haerenborgh <vhdirk@gmail.com>"]
 build = "build.rs"
+description = "FFI bindings to amtk-3.0, generated with gtk-rs' gir tool"
+homepage = "https://github.com/vhdirk/tepl-rs"
+keywords = ["tepl", "glib", "ffi", "gtk-rs", "gnome"]
+license = "MIT"
 links = "tepl"
 name = "tepl-sys"
-version = "0.2.0"
+version = "0.0.1"

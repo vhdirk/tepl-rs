@@ -1,18 +1,5 @@
-[package]
-name = "tepl"
-description = "Bindings for tepl-3"
-homepage = "https://github.com/vhdirk/tepl-rs"
-authors = ["Dirk Van Haerenborgh <vhdirk@gmail.com>"]
-keywords = ["tepl", "amtk", "gtk-rs", "gnome"]
-license = "MIT"
-version = "0.0.1"
-exclude = [
-    "gir-files/*",
-]
-
-
 [workspace]
 members = [
     "amtk",
-    "tepl",
+    "tepl"
 ]

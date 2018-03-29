@@ -11,8 +11,6 @@ exclude = [
 ]
 
 
-[lib]
-name = "tepl"
 
 # [features]
 # v1_31 = ["gmime-sys/v1_31"]
@@ -30,7 +28,7 @@ lazy_static = "1.0"
 
 amtk = { path = "../amtk" }
 
-tepl-sys   = "*"
+tepl-sys   = { path = "../tepl-sys" }
 
 gio         = "^0.4.0"
 gio-sys     = "^0.6.0"
